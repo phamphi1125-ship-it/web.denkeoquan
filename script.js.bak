@@ -1,0 +1,11 @@
+const carousel = document.getElementById("carousel");
+
+// Khi đưa chuột vào đèn
+carousel.addEventListener("mouseenter", () => {
+    carousel.style.animationPlayState = "paused";
+});
+
+// Khi đưa chuột ra
+carousel.addEventListener("mouseleave", () => {
+    carousel.style.animationPlayState = "running";
+});

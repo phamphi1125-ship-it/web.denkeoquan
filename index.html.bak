@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đèn Kéo Quân Truyền Thống</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Đèn Kéo Quân Truyền Thống</h2>
+
+<div class="lamp">
+
+    <!-- Nắp trên -->
+    <div class="top"></div>
+
+    <!-- Không gian 3D -->
+    <div class="scene">
+        <div class="carousel" id="carousel">
+            <div class="face"><img src="images/img1.jpg"></div>
+            <div class="face"><img src="images/img2.jpg"></div>
+            <div class="face"><img src="images/img3.jpg"></div>
+            <div class="face"><img src="images/img4.jpg"></div>
+            <div class="face"><img src="images/img5.jpg"></div>
+            <div class="face"><img src="images/img6.jpg"></div>
+        </div>
+    </div>
+
+    <!-- Đế đèn -->
+    <div class="base"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
